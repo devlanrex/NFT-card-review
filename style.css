@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+.body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 300px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.equilibrium {
+  color: hsl(0, 0%, 100%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.collection {
+  font-size: 15px;
+  font-weight: 300;
+  color: hsla(215, 52%, 70%, 0.753);
+  margin-bottom: 12px;
+}
+
+.nft-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ethereum-flex {
+  display: flex;
+  gap: 8px;
+}
+
+.ethereum {
+  width: 10px;
+  height: fit-content;
+}
+
+.ethereum-text {
+  font-size: 14px;
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+
+.clock-flex {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  color: hsla(215, 52%, 70%, 0.541);
+}
+
+.icon-clock {
+  width: 15px;
+  height: fit-content;
+}
+
+.line {
+  background-color: hsla(215, 52%, 70%, 0.541);
+  width: 100%;
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  width: 25px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.user-text {
+  font-size: 14px;
+  color: hsla(215, 52%, 70%, 0.541);
+}
+
+.user-text-white {
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.attribution {
+  margin-top: 30px;
+  font-size: 12px;
+  font-weight: 300;
+  color: hsla(215, 52%, 70%, 0.541);
+}
+
+a {
+  color: white;
+}
+
+@media screen and (min-width: 1000px) {
+  a {
+    color: white;
+  }
+}
